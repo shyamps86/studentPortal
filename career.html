@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+           body{
+            background: url("career.png") repeat-y top right;
+            background-color: rgba(29, 114, 189, 0.857);
+           }
+           .searchClass input[type=search],#selectId{
+            border-radius: 100px;
+            padding-left:20px;
+            padding-top:10px;
+            padding-bottom: 10px;
+            background-color: aqua;
+           }
+           .courseDesc #id1,#id2,#id3,#id4{
+            display: flex;
+            padding-right: 20px;
+            flex-direction: column;
+            border: 2px solid black;
+            border-radius: 15px;
+           }
+           .courseDesc{
+            float:left;           }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center; position: relative;">welcome to courses!! here you have list of courses</h1>
+        <div class="searchClass">
+            <input id="searchId" type="search" name="search" value="search for courses here"/>
+        <select name="" id="selectId">
+            <option value="">select</option> <br> <br>
+            <option value="">java</option> <br> <br>
+            <option value="">python</option> <br> <br>
+            <option value="">c++</option> <br> <br>
+            <option value="">ReactJs</option>
+        </select>
+    </div>
+        <div class="courseDesc"> 
+            <h3 ><u>cource descriptions</u></h3>
+            <div id="id1">
+                <dt>1.c++</dt>
+                <dd>this is a procedural language.</dd>
+            </div> <br>
+            <div id="id2">
+                <dt>2.java</dt>
+                <dd>this is a object oriented programming language</dd>
+            </div> <br>
+            <div id="id3">
+                <dt>reactJs</dt>
+                <dd>it's a framework</dd>
+            </div> <br>
+            <div id="id4">
+                <dt>pyhton</dt>
+                <dd>this is a data science language</dd>
+            </div>
+        </div>
+    </body>
+</html>

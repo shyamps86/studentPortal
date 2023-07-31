@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   body{
+    background-image: url("luskoo.jpg");
+    background-size: cover;
+   }
+   .navBar{
+    background-color: rgba(172, 195, 219, 0.339);
+   }
+   .image{
+    width: 90px;
+    height: auto;
+    margin:25px;
+   }
+   .navbar ul{
+    float: right;
+    margin-right: 30px;
+   }
+   .navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 100px;
+    color: rgb(187, 71, 71);
+   }
+   .navbar ul li a{
+    background-color: rgba(11, 51, 49, 0.512);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: black;
+    font-weight: larger;
+   }
+   .navbar ul li a:hover{
+    color: white;
+    background-color: rgb(15, 15, 17);
+    border-radius:40px;
+   }
+   .buttonClass1:hover{
+    background-color: blanchedalmond;
+    color: white;
+   }
+   .buttonClass2:hover{
+    background-color: blanchedalmond;
+    color: white;
+   }
